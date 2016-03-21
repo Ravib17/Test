@@ -1,0 +1,32 @@
+<!DOCTTPE HTML>
+<html>
+	<head>
+		<title>Cookie & Chips</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-ui-router.min.js"></script>
+		<script src="js/custom_portal.js"></script>
+	    <script src="js/angular-messages.js"></script> 
+		<style>
+		 body { margin: 0px; padding:0; outline:none;background-image:url('img/homebackground2.jpg');  
+		    background-repeat:no-repeat; background-size:cover;background-position: fixed;	 
+			}
+			
+		</style>
+	</head>
+	<body ng-app="customApp" ng-controller='uiCtrl'>
+	 <div id="header">
+	  <span id="heading">Cookie & chips</span>
+	  <img src="img/headerimage.png" style="float:right;margin-top:-70px;margin-right:100px" id width=150px height=150px></img>
+	  <div id="navbar" >
+		<ul>
+		 <li><a ui-sref="home" ng-class="getClass('/home')">Home</a></li>
+		 <li><a ui-sref="addshop"ng-class="getClass('/addshop')">Add Shop</a></li>
+		 <li><a ui-sref="result" ng-class="getClass('/result')">Result</a></li>
+		</ul>
+	  </div>
+	  </div>
+	 <div  id="view"  ui-view></div>
+	</body>
+</html>
