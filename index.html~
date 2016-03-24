@@ -4,7 +4,7 @@
 		<title>Cookie & Chips</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
 		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 		<script src="js/custom_portal.js"></script>
 	    <script src="bower_components/ngMessage/ngMessage.js"></script> 

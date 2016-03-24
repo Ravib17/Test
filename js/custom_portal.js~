@@ -1,5 +1,5 @@
 
-var app=angular.module('customApp',['ui.router','ngMessage']);
+var app=angular.module('customApp',['ui.router','ngMessages']);
 
 /* ui  router logic */
 app.config(function($stateProvider,$urlRouterProvider){
